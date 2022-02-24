@@ -1,0 +1,110 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width:90%;
+    background: white;
+    border: 0.5 solid white;
+}
+
+.nav .logo {
+    font-weight: bold;
+    color:black;
+    font-size: 30px;
+}
+
+.nav .switch {
+    display: flex;
+    justify-self: space-around;
+    width: 90%;
+    
+}
+
+.nav .switch ul {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    
+}  
+.nav .switch ul li {
+    list-style: none;
+    justify-content: space-between;
+}
+
+.nav .switch ul li a{
+    list-style: none;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.nav .icon {
+    display: flex;
+}
+.nav .icon img {
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.main-page {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    margin:20px;
+    width:100%;
+
+}
+
+.main-page .main-image{
+    width: 50%;
+    padding: 20px;
+}
+
+.main-page .main-image img {
+    height: 350px;
+    width: 600px;
+    border-radius: 5%;
+}
+
+.main-page .main-image .sub {
+    display: flex;
+    justify-content: space-between;
+    width:20%;
+    
+}
+
+.main-page .main-image .sub img {
+    height: 146.8px;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+
+
+
+.main-page .main-text{
+    margin-top: 40px;
+    margin-left: 5px;
+    width:40%
+}
+
+.main-page .main-text h6{
+    color: orange;
+}
+
+.main-page .main-text button{
+    color: white;
+    background-color: orange;
+    border-radius: 12%;
+
+}
