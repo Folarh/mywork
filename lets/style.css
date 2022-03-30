@@ -1,0 +1,262 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.body-container .nav{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    background: url(img8.jpeg);
+
+}
+
+.body-container .nav .logo{
+    margin-left: 20px;
+    align-self: center;
+
+}
+
+.body-container .nav .logo img{
+    width:150px;
+
+}
+
+.body-container .nav .sch{
+    margin-right: 40px;
+    align-self: center;
+
+}
+.body-container .nav .sch button {
+    height:30px;
+    width: 80px;;
+    background: white;
+    border-radius: 20px;
+    border: white;
+}
+
+.head-container{
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+    background: url(img8.jpeg);
+}
+
+
+
+.head-container .build{
+    margin-left: 40px;
+    margin-right: 20px;
+    width: 50%;
+   align-self: center;
+
+}
+
+.head-container .build h1{
+    font-size: 50px;
+}
+
+.head-container .build button{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background-color:rgb(240, 128, 147);
+    color: white;
+    border: white;
+}
+
+.head-container .build p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.head-container .db{
+    margin-left: 20px;
+    margin-right: 60px;
+}
+
+.head-container .db img{
+    height:450px;
+}
+
+
+.body-container .main{
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+
+.body-container .main .left{
+    
+    margin-right: 40px;
+    align-self: center;
+}
+
+.body-container .main .left h3{
+    font-size: 30px;
+    margin-left: 150px;
+}
+
+.body-container .main .left p{
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 150px;
+}
+
+.body-container .main .right{
+    margin-left: 20px;
+    margin-right: 60px;
+    align-self: center;
+}
+
+.body-container .main .right img{
+    height:350px;
+}
+
+.body-container .secs{
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+
+.body-container .secs .one{
+    margin-left: 20px;
+    margin-right: 60px;
+    align-self: center;
+}
+
+.body-container .secs .one img{
+    height:350px;
+}
+
+.body-container .secs .two{
+    margin-right: 40px;
+    align-self: center;
+}
+
+/* problem yet to be resolved*/
+
+.body-container .secs .two h3{
+    font-size: 30px;
+    margin-right: 150px;
+}
+
+.body-container .secs .two p{
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-right: 150px;
+}
+
+.body-container .users{
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+
+.body-container .users .usr1{
+    margin-right: 40px;
+    align-self: center;   
+}
+
+.body-container .users .usr1 h3{
+    font-size: 30px;
+    margin-left: 150px;
+}
+
+.body-container .users .usr1 p{
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 150px;
+}
+
+
+.body-container .users .usr2{
+margin-left: 20px;
+margin-right: 60px;
+align-self: center;
+}
+
+.body-container .users .usr2 img{
+    height:350px;
+}
+
+
+
+footer{
+    background-color:  #00252e;
+    color: white;
+}
+.myfoot{
+    position: relative;
+}
+
+.myfoot .foot-nav img{
+    height: 40px;
+    margin-left: 170px;
+    align-items: center;
+    margin-top: 70px;
+    background:  #00252e;
+}
+
+ .sop{
+    margin-top: 50px;
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid #ebf0f1;
+    background-color: whitesmoke;
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    left: 30%;
+}
+
+.sop h4{
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 30px;
+}
+
+ .sop button{
+    height:40px;
+    width: 150px;
+    background: rgb(240, 128, 147);
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+    color: white;
+    border-color: white;
+}
+
+.full{
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    align-items: center;
+}
+.full ul{
+    list-style: none;
+    line-height: 30px;
+}
+.myfoot .social-icon img{
+height: 20px;
+justify-content: space-around;
+}
+
+
+
+
+
+
